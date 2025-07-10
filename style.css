@@ -1,0 +1,93 @@
+:root{
+    --primary-color: #3778fa;
+    --background-color: #fff;
+    --font-logo: "space-grotesk"
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "space-grotesk";
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: var(--font-logo);
+}
+
+#header{
+    display:flex;
+    padding-top:1.15rem;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+#logo{
+    font-family: var(--font-logo);
+    color:var(--primary-color);
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+#slogan{
+    display: flex;
+    padding-top: 4.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#slogan h1{
+    font-family: var(--font-logo);
+    font-size: 2.3rem;
+    padding: 0rem 2rem 0rem 4rem;
+    font-weight: 650;
+    
+}
+
+#sub-slogan{
+    padding: 2rem 2rem 0rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#main-frame{
+    padding: 3rem 1rem 0rem 1rem;
+}
+
+#frame{
+    max-width: 100%;
+    
+}
+
+#help-task{
+    display: flex;
+    padding-top: 5rem;
+}
+
+#help-task h3{
+    text-align: center;
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#video{
+    padding: 1.7rem 2rem 0rem 2rem;
+}
+
+#video img{
+    max-width: 100%;
+}
+
+#choose-us{
+    padding: 3.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
