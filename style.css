@@ -45,7 +45,7 @@ body{
 #slogan h1{
     font-family: var(--font-logo);
     font-size: 2.3rem;
-    padding: 0rem 2rem 0rem 4rem;
+    padding: 0rem 3rem 0rem 3rem;
     font-weight: 650;
     
 }
@@ -67,7 +67,7 @@ body{
 
 #help-task{
     display: flex;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 #help-task h3{
@@ -85,9 +85,149 @@ body{
     max-width: 100%;
 }
 
-#choose-us{
+#choose-us h3{
     padding: 3.3rem;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
+    padding-bottom: 1.2rem;
 }
+
+#back{
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="344" height="301" viewBox="0 0 344 301" fill="none"><rect y="46" width="344" height="255" rx="16" fill="white"/><rect opacity="0.7" x="71.4316" width="202.138" height="301"/><rect x="71.4316" width="202.138" height="301"/><rect x="81.1413" y="7.94434" width="181.836" height="293.056"/></svg>' ) no-repeat;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+#faq {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:1.3rem;
+}
+
+#faq img{
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr 4);
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#card{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+}
+
+#card p{
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: 1rem
+}
+
+#card-especial{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #fff;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+}
+
+
+
+#card-especial .main-text {
+    display:flex;
+    margin: 1rem 1rem 0rem 1rem;
+    justify-content: space-between;
+
+}
+
+#card-especial #random{
+    font-size: 0.7rem;
+    justify-content: center;
+    margin: 0rem 1rem 1rem 1rem;
+
+
+}
+
+#back{
+    background-color: #f3f3f3;
+    margin: 1.8rem;
+    border-radius: 1.25rem;
+}
+
+#img{
+    background-color: #fff;
+    margin-top: rem;
+    padding: 0rem 5.5rem 0rem 5.5rem;
+    border-radius: 1rem;
+}
+
+#card2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+}
+
+#card2 p{
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: 1rem
+}
+
+#main-footer{
+    display:flex;
+    padding-top: 3.3rem;
+    background-color: var(--primary-color);
+    font-size:4rem;
+    padding-left: 1.7rem;
+    color:#fff;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+#footer{
+    background-color: var(--primary-color);
+}
+
+#text-footer{
+    margin-top: 1rem;
+    padding-left: 1.7rem;
+    color:#fff;
+}
+
+#learn-more{
+    margin-top: 1.3rem;
+    padding-left: 1.7rem;
+    border-radius: 6.25rem;
+}
+
+#learn-more p{
+    background-color: #fff;
+    border-radius: 6.25rem;
+    margin-right:30.5rem;
+    padding: 13px 22px;
+    font-weight: bold;
+}
+
+#space{
+    padding-top: 4.724rem;
+}
+
+
