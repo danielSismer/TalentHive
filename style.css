@@ -7,6 +7,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: var(--font-logo);
 }
 
 @font-face {
@@ -33,6 +34,7 @@ body{
     color:var(--primary-color);
     font-weight: 500;
     font-size: 1.7rem;
+
 }
 
 #slogan{
@@ -77,7 +79,15 @@ body{
     font-weight: 600;
 }
 
+#help-task-desktop{
+    display: none;
+   
+}
+
+
 #video{
+    display:flex;
+    justify-content: center;
     padding: 1.7rem 2rem 0rem 2rem;
 }
 
@@ -88,12 +98,12 @@ body{
 #choose-us h3{
     padding: 3.3rem;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     padding-bottom: 1.2rem;
 }
 
-#back{
+#back-mobile{
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="344" height="301" viewBox="0 0 344 301" fill="none"><rect y="46" width="344" height="255" rx="16" fill="white"/><rect opacity="0.7" x="71.4316" width="202.138" height="301"/><rect x="71.4316" width="202.138" height="301"/><rect x="81.1413" y="7.94434" width="181.836" height="293.056"/></svg>' ) no-repeat;
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -134,6 +144,10 @@ body{
     justify-content: center;
     margin: 0rem 1rem 0rem 1rem;
     font-size: 1rem
+}
+
+#menu-hamburguer{
+
 }
 
 #card-especial{
@@ -195,7 +209,7 @@ body{
     display:flex;
     padding-top: 3.3rem;
     background-color: var(--primary-color);
-    font-size:4rem;
+    font-size:3rem;
     padding-left: 1.7rem;
     color:#fff;
     font-weight: bold;
@@ -204,6 +218,7 @@ body{
 
 #footer{
     background-color: var(--primary-color);
+    color:white
 }
 
 #text-footer{
@@ -218,16 +233,214 @@ body{
     border-radius: 6.25rem;
 }
 
-#learn-more p{
+#learn-more button{
     background-color: #fff;
     border-radius: 6.25rem;
-    margin-right:30.5rem;
     padding: 13px 22px;
     font-weight: bold;
+    border:none
 }
 
 #space{
-    padding-top: 4.724rem;
+    padding-top: 10vh
 }
 
+#item-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 1.5rem;
+    gap: 4.5vw
+}
+
+.especial-grid{
+    font-weight: 500;
+}
+
+.normal-grid{
+    font-weight: 400;
+}
+
+#copyright{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+#local{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3vh;
+    font-weight: 400;
+}
+
+#cookies{
+    padding-top: 3vh;
+    display:flex;
+    justify-content: center;
+}
+
+.desktop{
+    display: none;
+}
+
+#sub-sloganDesktop{
+
+    display:none;
+}
+
+#back-desktop{
+    display:none;
+}
+
+@media (min-width : 768px ){
+
+   .desktop{
+    display: flex;
+    align-items: center;
+    margin: 0 3vw;
+    gap: 2vw
+   }
+
+   #menu-hamburguer{
+    display:none;
+   }
+
+
+   #logoDesktop{
+    font-family: var(--font-logo);
+    color:var(--primary-color);
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin-right: auto;
+   }
+
+   #logo{
+    display:none;
+    font-size: 1.125rem
+   }
+
+   #menuDesktop{
+    display:flex;
+    gap:2rem;
+    margin: 0 auto;
+   }
+
+   
+
+   #auth{
+    display:flex;
+    gap:2rem;
+    margin-left:auto;
+   }
+   #create-acc {
+    background-color: var(--primary-color);
+    border-radius: 6.25rem;
+    display: inline-block; 
+}
+
+#create-acc a {
+    padding: 0.5rem 1.5rem;
+     color: #fff;
+    text-decoration: none;
+    display: inline-block; 
+  font-weight: bold;
+}
+
+#slogan h1{
+
+    font-size: 6vw;
+    
+}
+
+#sub-slogan{
+    display:none
+}
+
+#sub-sloganDesktop{
+    display:block;
+    padding: 2rem 2rem 0rem 2rem;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#main-frame{
+    padding-top:5rem;
+    display:flex;
+    justify-content: center;
+}
+
+#frame{
+    width: 85%;
+}
+
+#help-task-desktop{
+    display: flex;
+    padding-top: 15vh;
+    justify-content: center;
+}
+
+#help-task-desktop h3{
+    text-align: center;
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 5.21vw;
+    font-weight: 600;
+}
+
+#help-task{
+    display: none;
+
+}
+
+#choose-us h3{
+    padding-top: 15vh;
+    display:block;
+    font-size: 5.21vw;
+    font-weight: 600;
+}
+
+#back-mobile{
+    display:none
+}
+
+#back-desktop{
+    display:flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-radius: 60px;
+    margin:0 7vw ;
+    padding-top: 5vw;
+}
+
+#img-faq-desktop{
+    margin-left:4vw;
+    height: 100%;
+}
+
+#card-faq{
+    display: flex;
+    background-color: #fff;
+    margin:2vw 5vw;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+#card-faq a{
+    margin: 2vw 1.2vw;
+    font-size: 1.563vw;
+    height: 38px;
+}
+
+#footer{
+    display:none;
+
+}
+
+
+
+
+   }
+
+   
 
